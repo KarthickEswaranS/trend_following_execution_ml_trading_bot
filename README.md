@@ -1,13 +1,11 @@
-# Machine Learning & Algorithmic Trading Projects
+# Machine Learning Trading Model [ Short-term market prediction and Trade Execution ]  
 
-## 1. Machine Learning Trading Model  
-🔗 **Live Link:** [Insert Link]
 
 ### 📌 Overview  
 Developed a complete machine learning pipeline using the RandomForest algorithm to predict short-term market direction on real historical Binance data.
 
 ### 🚀 Key Contributions  
-- Engineered advanced features including **SMMA, RSI, MACD, volatility metrics**, and price-based indicators.  
+- Engineered advanced features **Smoothed Moving Average**.  
 - Applied **TimeSeriesSplit** to avoid look-ahead bias and ensure robust model evaluation.  
 - Achieved **88% prediction accuracy** on the test set, demonstrating strong directional forecasting capability.  
 - Performed **manual trade-level backtesting**, achieving a **65% win rate**, validating real-world profitability.  
@@ -18,7 +16,7 @@ Developed a complete machine learning pipeline using the RandomForest algorithm 
 ### 🛠️ Technical Stack  
 
 **Programming**  
-- Python (NumPy, Pandas, Matplotlib, mplfinance)
+- Python (NumPy, Pandas, mplfinance)
 
 **Machine Learning**  
 - scikit-learn (RandomForestClassifier)  
