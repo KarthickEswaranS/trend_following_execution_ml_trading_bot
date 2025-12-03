@@ -1,0 +1,17 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Ignore virtual environment
+venv/
+.env/
+__init__.py
+pyvenv.cfg
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore IDE/project settings
+.vscode/
+.idea/
+Lib/
+Scripts/
+share/
